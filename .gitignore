@@ -1,1 +1,6 @@
 ff-android-xamarin-client-sdk-binding/.vs
+ff-android-xamarin-client-sdk-binding/obj
+ff-android-xamarin-client-sdk-binding/bin
+ff-ios-xamarin-client-sdk-binding/obj
+ff-ios-xamarin-client-sdk-binding/bin
+.vs
