@@ -1,0 +1,9 @@
+﻿<metadata>
+ <remove-node path="/api/package[@name='io.harness.cfsdk.cloud.core.client']" />
+ <remove-node path="/api/package[@name='io.harness.cfsdk.cloud.factories']" />
+ <remove-node path="/api/package[@name='io.harness.cfsdk.cloud.core.model']/class[@name='FeatureState.Adapter']"/>
+ <remove-node  path="/api/package[@name='io.harness.cfsdk.cloud.analytics']/class[@name='AnalyticsEventHandler']"/>
+ <remove-node path="/api/package[@name='io.harness.cfsdk.cloud.analytics.model']/class[@name='MetricsData']"/>
+ <remove-node path="/api/package[@name='io.harness.cfsdk.cloud.analytics']/class[@name='AnalyticsEventFactory']"/>
+ <remove-node path="/api/package[@name='io.harness.cfsdk.cloud.oksse']/interface[@name='ServerSentEvent.Listener']"/>
+</metadata>
