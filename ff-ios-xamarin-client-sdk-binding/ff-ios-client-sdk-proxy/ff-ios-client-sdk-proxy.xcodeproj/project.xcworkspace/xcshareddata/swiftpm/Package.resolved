@@ -1,0 +1,16 @@
+{
+  "object": {
+    "pins": [
+      {
+        "package": "ff-ios-client-sdk",
+        "repositoryURL": "https://github.com/drone/ff-ios-client-sdk.git",
+        "state": {
+          "branch": null,
+          "revision": "e2ab1d616267ab29169c5acb393e2cb852a7f2f7",
+          "version": "1.0.2"
+        }
+      }
+    ]
+  },
+  "version": 1
+}
