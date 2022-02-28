@@ -28,10 +28,7 @@ Library Initialization snippet
     var config = new CfConfigurationProxy
     {
         StreamEnabled = true,
-        AnalyticsEnabled = true,
-        ConfigUrl = "https://config.feature-flags.uat.harness.io/api/1.0",
-        EventUrl = "https://event.feature-flags.uat.harness.io/api/1.0",
-        StreamUrl = "https://config.feature-flags.uat.harness.io/api/1.0/stream"
+        AnalyticsEnabled = true
     };
 
     // Set selected identifer:
