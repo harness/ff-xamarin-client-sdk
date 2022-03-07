@@ -163,7 +163,11 @@ Go to `File->Packages->Update` to Latest Package Versions to pick the latest iOS
 
 Update version of ff-ios-client-sdk-proxy by clicking on project file in XCode, selecting proper target and updating Version and Buid number from General tab. Suggestion is to keep this value in sync with value of iOS Xamarin binding published through nuget.
 
-To build a library use build.sh script located in `ff-ios-xamarin-client-sdk-binding/ff-ios-client-sdk-proxy` folder. After being launched, script will:
+
+
+To build a library use build.sh script located in `ff-ios-xamarin-client-sdk-binding/ff-ios-client-sdk-proxy` folder. Before launching make sure that sharpie tool is installed from https://aka.ms/objective-sharpie
+
+After being launched, script will:
 * Build library for both simulator and device architecture, and create a fat library. Output build is located at ff-ios-xamarin-client-sdk-binding/ff-ios-client-sdk-proxy/build
 * Run sharpie tool, which generates .NET ApiDefinitions.cs file which is used in binding proces. In case if there is no changes in interface, ApiDefinitions.cs will stay the same. NOTE: After running sharpie, user need manuall to add base interface INativeObject to CxValue class.
 
