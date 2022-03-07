@@ -42,6 +42,21 @@ Library Initialization snippet
     CfClientProxy.Shared.InitializeWithApiKey(API_KEY, config, target);
 ```
 
+Evaluating the flag values:
+
+```
+bool flag1 = CfClient.Instance.BoolVariation("flag1", false);
+```
+
+Available public variation methods are:
+
+- BoolVariation
+- NumberVariation
+- StringVariation
+- JsonVariation
+
+Each accepts the flag name and the default value as the method arguments.
+
 Subscribing on receiving library events:
 
 ```
@@ -94,6 +109,21 @@ Library Initialization snippet:
      // Listener object should implement IAuthCallback interface:
     CfClient.Instance.Initialize(this.context, API_KEY, configuration, target, listener);
 ```
+
+Evaluating the flag values:
+
+```
+bool flag1 = CfClient.Instance.BoolVariation("flag1", false);
+```
+
+Available public variation methods are:
+
+- BoolVariation
+- NumberVariation
+- StringVariation
+- JsonVariation
+
+Each accepts the flag name and the default value as the method arguments.
 
 Subscribing on receiving library events:
 
@@ -151,9 +181,9 @@ public class CfListener : Java.Lang.Object, IAuthCallback, IEventsListener
     }
 }
 ```
-# Instructions on generating iOS and Android Xamaring Binding SDK 
+# Instructions on generating iOS and Android Xamaring Binding SDK
 
-## iOS 
+## iOS
 
 1. Generating wrapper framework arround ff_ios_client_sdk library.
 
@@ -171,7 +201,7 @@ To build a library use build.sh script located in `ff-ios-xamarin-client-sdk-bin
 <br/>
 2. Creating iOS Xamarin binding SDK
 
-Open Solution file ff-xamarin-client-sdk-binding.sln and open Options of ff-ios-xamarin-client-sdk-binding project. In NuGet Package section, change Version and details related with nuget package. 
+Open Solution file ff-xamarin-client-sdk-binding.sln and open Options of ff-ios-xamarin-client-sdk-binding project. In NuGet Package section, change Version and details related with nuget package.
 
 Select Release configuration, then right clik on ff-ios-xamarin-client-sdk-binding project and select "Create Nuget Package". As a result nuget package will be generated at `ff-ios-xamarin-client-sdk-binding/bin/Release/ff-ios-xamarin-client-sdk.x.y.z.nupkg`, where x.y.z corresponds to version entered in NuGet Package section.
 
@@ -194,7 +224,7 @@ Open solution file, and from project file in Jars folder, delete old .aar file, 
 
 2. Creating Android Xamarin binding SDK
 
-Open Solution file ff-xamarin-client-sdk-binding.sln and open Options of ff-android-xamarin-client-sdk-binding project. In NuGet Package section, change Version and details related with nuget package. 
+Open Solution file ff-xamarin-client-sdk-binding.sln and open Options of ff-android-xamarin-client-sdk-binding project. In NuGet Package section, change Version and details related with nuget package.
 
 
 Select Release configuration, then right clik on ff-android-xamarin-client-sdk-binding project and select "Create Nuget Package". As a result nuget package will be generated at `ff-android-xamarin-client-sdk-binding/bin/Release/ff-android-xamarin-client-sdk.x.y.z.nupkg`, where x.y.z corresponds to version entered in NuGet Package section.
