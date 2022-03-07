@@ -20,7 +20,7 @@
     <RestoreProjectStyle>PackageReference</RestoreProjectStyle>
     <ReleaseVersion>1.0.7</ReleaseVersion>
     <SynchReleaseVersion>false</SynchReleaseVersion>
-    <PackageId>ff-android-xamarin-client-sdk-binding</PackageId>
+    <PackageId>ff-android-xamarin-client-sdk</PackageId>
     <PackageVersion>1.0.7.1</PackageVersion>
     <Authors>andrija.milovanovic@harness.io</Authors>
     <NeutralLanguage>en-US</NeutralLanguage>
