@@ -22,7 +22,7 @@
     <SynchReleaseVersion>false</SynchReleaseVersion>
     <PackageId>ff-android-xamarin-client-sdk</PackageId>
     <PackageVersion>0.5.0</PackageVersion>
-    <Authors>andrija.milovanovic@harness.io</Authors>
+    <Authors>andrija.milovanovic@harness.io, milos.vasic@harness.io</Authors>
     <NeutralLanguage>en-US</NeutralLanguage>
     <PackageRequireLicenseAcceptance>true</PackageRequireLicenseAcceptance>
     <Owners>harness.io</Owners>
