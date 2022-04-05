@@ -4,3 +4,4 @@ ff-android-xamarin-client-sdk-binding/bin
 ff-ios-xamarin-client-sdk-binding/obj
 ff-ios-xamarin-client-sdk-binding/bin
 .vs
+ff-ios-xamarin-client-sdk-binding/ff-ios-client-sdk-proxy/build

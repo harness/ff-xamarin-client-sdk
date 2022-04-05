@@ -9,7 +9,7 @@ Xamarin client uses Harness Binding library NuGet package for iOS and Android ap
 To reference Android binding library add package:
 
 ```
-Install-Package ff-android-xamarin-client-sdk -Version 0.5.1
+Install-Package ff-android-xamarin-client-sdk -Version 0.5.2
 ```
 
 To reference iOS binding library add package:
@@ -222,7 +222,7 @@ from location where nuget package is generated. api_key should be acquired on nu
 
 1. Adding new Android library to binding project.
 
-Get proper Android FF SDK binary library (ff-android-client-sdk-1.0.7.aar), and copy to Jars folder. Delete older version.
+Get proper Android FF SDK binary library (ff-android-client-sdk-1.0.9.aar), and copy to Jars folder. Delete older version.
 
 Open solution file, and from project file in Jars folder, delete old .aar file, and using Add->New File menu add new library. Select file and from properties menu make sure that build action "LibraryProjectZip" is selected.
 
