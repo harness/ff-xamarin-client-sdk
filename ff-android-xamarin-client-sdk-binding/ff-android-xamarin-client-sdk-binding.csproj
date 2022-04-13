@@ -86,9 +86,6 @@
     <PackageReference Include="xamarin.android.gsonfire.gson-fire">
       <Version>1.8.4</Version>
     </PackageReference>
-    <PackageReference Include="xamarin.android.lmax.disruptor">
-      <Version>3.4.2</Version>
-    </PackageReference>
     <PackageReference Include="xamarin.android.orhanobut.hawk">
       <Version>2.0.1</Version>
     </PackageReference>
