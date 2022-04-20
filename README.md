@@ -12,6 +12,12 @@ To reference Android binding library add package:
 Install-Package ff-android-xamarin-client-sdk -Version 0.5.2
 ```
 
+Note: To be able to use the Android binding library the Google GSON bindings must be provided:
+
+```
+Install-Package GoogleGson -Version 2.8.5
+```
+
 To reference iOS binding library add package:
 ```
 Install-Package ff-ios-xamarin-client-sdk -Version 0.5.0
