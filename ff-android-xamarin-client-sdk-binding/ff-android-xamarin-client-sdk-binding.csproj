@@ -77,9 +77,6 @@
       <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
       <PrivateAssets>all</PrivateAssets>
     </PackageReference>
-    <PackageReference Include="xamarin.android.com.google.code.gson">
-      <Version>2.8.7</Version>
-    </PackageReference>
     <PackageReference Include="xamarin.android.facebook.conceal">
       <Version>1.1.3</Version>
     </PackageReference>
