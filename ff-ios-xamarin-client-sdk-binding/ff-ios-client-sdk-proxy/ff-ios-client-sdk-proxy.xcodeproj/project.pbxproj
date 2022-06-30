@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		75BDBC12278A011700915E61 /* ff-ios-client-sdk-proxy.swift in Sources */ = {isa = PBXBuildFile; fileRef = 75BDBC11278A011700915E61 /* ff-ios-client-sdk-proxy.swift */; };
 		C7B3D5DA278A56E200930DFA /* ff_ios_client_sdk_proxy.h in Headers */ = {isa = PBXBuildFile; fileRef = C7B3D5D9278A56C400930DFA /* ff_ios_client_sdk_proxy.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		C7B3D5DC278A5B9C00930DFA /* ff-ios-client-sdk in Frameworks */ = {isa = PBXBuildFile; productRef = C7B3D5DB278A5B9C00930DFA /* ff-ios-client-sdk */; };
+		F55BE879286DCDA100B902D3 /* ff-ios-client-sdk in Frameworks */ = {isa = PBXBuildFile; productRef = F55BE878286DCDA100B902D3 /* ff-ios-client-sdk */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,7 +23,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C7B3D5DC278A5B9C00930DFA /* ff-ios-client-sdk in Frameworks */,
+				F55BE879286DCDA100B902D3 /* ff-ios-client-sdk in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,7 +85,7 @@
 			);
 			name = "ff-ios-client-sdk-proxy";
 			packageProductDependencies = (
-				C7B3D5DB278A5B9C00930DFA /* ff-ios-client-sdk */,
+				F55BE878286DCDA100B902D3 /* ff-ios-client-sdk */,
 			);
 			productName = "ff-ios-client-sdk-proxy";
 			productReference = 75BDBC042789FF1600915E61 /* ff_ios_client_sdk_proxy.framework */;
@@ -116,7 +116,7 @@
 			);
 			mainGroup = 75BDBBFA2789FF1600915E61;
 			packageReferences = (
-				75BDBC0E2789FF9300915E61 /* XCRemoteSwiftPackageReference "ff-ios-client-sdk" */,
+				F55BE877286DCDA100B902D3 /* XCRemoteSwiftPackageReference "ff-ios-client-sdk" */,
 			);
 			productRefGroup = 75BDBC052789FF1600915E61 /* Products */;
 			projectDirPath = "";
@@ -286,7 +286,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 0;
+				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = XHKRD4QAYM;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -302,7 +302,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.5;
+				MARKETING_VERSION = 0.5.1;
 				ONLY_ACTIVE_ARCH = NO;
 				PRODUCT_BUNDLE_IDENTIFIER = "rs.ff-ios-client-sdk.ff-ios-client-sdk-proxy";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
@@ -321,7 +321,7 @@
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 0;
+				CURRENT_PROJECT_VERSION = 1;
 				DEFINES_MODULE = YES;
 				DEVELOPMENT_TEAM = XHKRD4QAYM;
 				DYLIB_COMPATIBILITY_VERSION = 1;
@@ -337,7 +337,7 @@
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MARKETING_VERSION = 0.5;
+				MARKETING_VERSION = 0.5.1;
 				PRODUCT_BUNDLE_IDENTIFIER = "rs.ff-ios-client-sdk.ff-ios-client-sdk-proxy";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
 				SKIP_INSTALL = YES;
@@ -380,6 +380,14 @@
 				minimumVersion = 1.0.0;
 			};
 		};
+		F55BE877286DCDA100B902D3 /* XCRemoteSwiftPackageReference "ff-ios-client-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "git@github.com:harness/ff-ios-client-sdk.git";
+			requirement = {
+				branch = main;
+				kind = branch;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -388,9 +396,9 @@
 			package = 75BDBC0E2789FF9300915E61 /* XCRemoteSwiftPackageReference "ff-ios-client-sdk" */;
 			productName = "ff-ios-client-sdk";
 		};
-		C7B3D5DB278A5B9C00930DFA /* ff-ios-client-sdk */ = {
+		F55BE878286DCDA100B902D3 /* ff-ios-client-sdk */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 75BDBC0E2789FF9300915E61 /* XCRemoteSwiftPackageReference "ff-ios-client-sdk" */;
+			package = F55BE877286DCDA100B902D3 /* XCRemoteSwiftPackageReference "ff-ios-client-sdk" */;
 			productName = "ff-ios-client-sdk";
 		};
 /* End XCSwiftPackageProductDependency section */

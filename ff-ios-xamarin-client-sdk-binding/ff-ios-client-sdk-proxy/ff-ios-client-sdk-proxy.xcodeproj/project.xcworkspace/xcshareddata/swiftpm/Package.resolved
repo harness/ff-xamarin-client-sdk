@@ -1,16 +1,14 @@
 {
-  "object": {
-    "pins": [
-      {
-        "package": "ff-ios-client-sdk",
-        "repositoryURL": "https://github.com/drone/ff-ios-client-sdk.git",
-        "state": {
-          "branch": null,
-          "revision": "e2ab1d616267ab29169c5acb393e2cb852a7f2f7",
-          "version": "1.0.2"
-        }
+  "pins" : [
+    {
+      "identity" : "ff-ios-client-sdk",
+      "kind" : "remoteSourceControl",
+      "location" : "git@github.com:harness/ff-ios-client-sdk.git",
+      "state" : {
+        "branch" : "main",
+        "revision" : "1028877c48445a8988b1f6367967b1d4184e2bdd"
       }
-    ]
-  },
-  "version": 1
+    }
+  ],
+  "version" : 2
 }
